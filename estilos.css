@@ -1,0 +1,226 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+
+    padding: 0px;
+    margin: 0px;
+    background-color: #8ab5e6; */fondo*/
+    color:  #f3ff33  ; /*????*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+.cabecera {
+    /*height: 12em;*/
+   /* width: 100%;*/
+    background-color: #213e8e; */ color encabezado
+    /*background-color: #f3ff33 ;*/ color encabezado
+    
+    /*justify-content: space-around;*/
+    text-align: center;
+    font-family: cursive;
+    padding: 5px 0;
+}
+span{
+
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 8%;
+    /*border: 1px solid #ebf3eb; /*recuadro logo*/
+    /*border-radius: 10px;*/
+        
+}
+.nombresitio{
+   /* display: flex;*/
+    font-size: 4em;
+    color: #ebf3eb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /*padding: 0.5px;*/
+    justify-content: center;
+    
+    
+    /* desde aqui*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+      /*align-items: center;*/
+
+}
+
+#menusuperior ul{
+    
+    display: flex;
+    justify-content:right;
+    padding: 3em;
+    
+     
+}
+
+#menusuperior ul{
+    list-style: none;
+}
+
+#menusuperior ul li{
+    display: inline-block;
+}
+
+#menusuperior ul li a{
+    color:  white;
+    font-size: 20PX;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding: 15px ;
+    
+    /*text-align: center;*/
+    
+}
+    
+
+#menusuperior ul li a:hover{
+     color:  black;
+     font-size: 1.5em;
+}
+.imagen{
+    
+    width: 30% 
+
+}
+.contenedor {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+h1{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ebf3eb;
+    font-style: italic;
+    text-align: center;
+    padding: 0px;
+    
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.textu{
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+    /*text-align: center;   */
+    padding: 20PX 15PX;
+    margin: 20px auto;
+    max-width: 90%;/* ancho max contenido ventana*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*efecto de sombra*/
+
+}
+
+.paraf{
+    font-size: 80% ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+}
+
+.paraf3{
+    font-size: 80% ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    text-align: center;
+
+
+}
+
+.paraf2{
+
+    font-size: 80% ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    /*font-weight: 200;*/
+    text-align: left;
+
+}
+.vervideo{
+    
+    text-align:center ;
+    
+}
+
+/*nuevas tecnologias*/
+
+.contenido{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+    
+    /*border: solid 10px rgba(12, 11, 11, 0.507)*/
+    border: solid 1px #E8134D
+
+
+}
+
+/*body{
+    display: flex;
+    /*align-items: center;*/
+    /*align-items: end;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#b7328d, #ac18c0)*/
+}*/
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*background: linear-gradient(#5532b7, #1823c0)*/
+    background: linear-gradient(#13E816);
+    
+    
+
+
+    color: #0B0104;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+}
+thead{
+
+    background:  #f7f5f5 ;/*rgba(243, 140,210, 0.4); */
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-transform: uppercase;
+
+}
+td{
+    padding: 15px;
+    /*border-bottom: solid 6px (255,255,255,0.2);*/
+    border-bottom: rgb(255, 245, 248);
+
+}
+tbody tr{
+    cursor:pointer;
+}
+
+tbody tr:hover{
+    background: rgba(243, 140,210, 0.4);
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: #213e8e;
+    color: #ebf3eb;
+    
+}
+
